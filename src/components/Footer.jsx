@@ -134,7 +134,7 @@ export default function Footer() {
       {/* Elegant Bottom Bar */}
       <div className="mt-20 pt-10 border-t border-amber-100 text-center">
         <p className="text-slate-500 text-sm md:text-base font-light">
-          © 2025 <span className="text-amber-600 font-medium">LPI Food</span> • Royal Indian Fine Dining
+          © 2025 <span className="text-amber-600 font-medium"> <a href="https://www.legalpapersindia.com/">LPI Food</a></span> • Royal Indian Fine Dining
           <span className="mx-3 text-slate-400">•</span>
           <span className="text-amber-600">Crafted with devotion in India</span>
         </p>

@@ -77,7 +77,7 @@ export default function Menupage() {
         className="relative h-screen bg-cover bg-center bg-fixed flex items-center justify-center"
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1606491956689-2ea612773dd2?w=2400&q=90&fit=crop')" }}
       >
-        <div className="absolute inset-0 bg-white/75" />
+        <div className="absolute inset-0 bg-white/50" />
         <div className="absolute inset-0 bg-gradient-to-t from-white via-white/40 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-r from-amber-50/60 via-transparent to-amber-50/40" />
 
