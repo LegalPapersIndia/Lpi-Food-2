@@ -6,19 +6,19 @@ const chefs = [
     name: "Sanjeev Kapoor",
     role: "Celebrity Chef & Brand Ambassador",
     desc: "Padma Shri • Author of 150+ cookbooks • Host of Khana Khazana (10,000+ episodes) • Pioneer of Modern Indian Cuisine",
-    img: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Sanjeev_Kapoor_in_2023.jpg"
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHazUdNvBZfxuOz7_jGZ3n_PNu2iErbGyk6hpMQP5eEoaDoqVrClB8S-MpSRUiZq-nIzMaveChXOTZV9Nun6ozb95M-6-ThEVOBbTkE9bJ&s=10"
   },
   {
     name: "Vikas Khanna",
     role: "Michelin-Starred Chef",
     desc: "Michelin Star (Junoon, NYC) • Author • Filmmaker • Returned the 'Holy Sands' to India • Forbes 'Most Influential Chef'",
-    img: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Vikas_Khanna_in_2024.jpg"
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlHkZyn4RIGB6TNCs2aVbCImNAHFg4i07pWrq8rNlt1y0Q3gPLk441LuhqX7_t8V0-VOhplMBJDEfIkrtm3LjHPncLbX-2V-xf6K8zWvVWug&s=10"
   },
   {
     name: "Ranveer Brar",
     role: "Culinary Director & Storyteller",
     desc: "Host of 15+ TV shows • Youngest Executive Chef in India at 25 • Judge on MasterChef India • Passionate about Indian heritage recipes",
-    img: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Ranveer_Brar_in_2024.jpg"
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdZoOBJdEU0lY2CK144MYvH9cvYHYim_CsTi12-EhmJSHxERqFiAEStkvuk6vfpcnglBw3zgOEk94pRAkRlS6GtOEhmExVgMcPaHVZaEhJ5A&s=10"
   }
 ];
 

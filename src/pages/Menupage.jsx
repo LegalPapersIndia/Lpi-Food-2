@@ -92,11 +92,6 @@ export default function Menupage() {
             A living tribute to India’s 5000-year culinary soul — crafted with devotion, served with grace
           </p>
 
-          <div className="flex justify-center gap-16 mt-20">
-            <Flame className="w-14 h-14 text-amber-600 animate-pulse" />
-            <ChefHat className="w-16 h-16 text-amber-600 animate-pulse delay-300" />
-            <Sparkles className="w-14 h-14 text-amber-600 animate-pulse delay-700" />
-          </div>
         </div>
       </section>
 

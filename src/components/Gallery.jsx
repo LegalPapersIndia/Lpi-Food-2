@@ -3,13 +3,13 @@ import React from 'react';
 
 const images = [
   "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85&auto=format&fit=crop",
-  "https://images.unsplash.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=1200&q=85&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1606890737304-1a63c1ed2f57?w=1200&q=85&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1592861956122-eb0511c61394?w=1200&q=85&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1515003197210-e0cd4f706c02?w=1200&q=85&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=85&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1563379926899-1a66d5a4e3b6?w=1200&q=85&auto=format&fit=crop",
+  "https://assets.cntraveller.in/photos/67223218c3d220b6b329f8de/4:3/w_4964,h_3723,c_limit/Onrique%2012th%20Floor%20Night.jpg",
+  "https://www.oberoihotels.com/-/media/oberoi-hotel/the-oberoi-new-delhi/TONDelhi_25July24/dining/360/desktop820x646/360degree3.jpg",
+  "https://images.getbento.com/accounts/e395f21ff143e91a6e9215f73c3db02d/media/images/36119bazaar_meat_chi_shane_boyer_photography8_1.png?w=1200&fit=crop&auto=compress,format&cs=origin&crop=focalpoint&fp-x=0.5&fp-y=0.5",
+  "https://images.wsj.net/im-65599456?size=1.5",
+  "https://assets.architecturaldigest.in/photos/64f85037ec0bc118bdd98aba/master/pass/Untitled%20design%20(14).png",
+  "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+  "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
 ];
 
 export default function Gallery() {

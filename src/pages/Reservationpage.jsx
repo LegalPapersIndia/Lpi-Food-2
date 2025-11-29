@@ -29,7 +29,7 @@ export default function Reservation() {
         <div className="absolute inset-0 bg-gradient-to-t from-white via-white/30 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-r from-amber-50/60 via-transparent to-amber-50/40" />
 
-        <div className="relative text-center px-8 max-w-7xl mx-auto">
+        <div className="relative text-center px-8 max-w-7xl mx-auto mt-10">
           <h1 className="text-7xl md:text-9xl lg:text-10xl font-light tracking-widest text-slate-900 mb-8 leading-none">
             Reserve Your Throne
           </h1>

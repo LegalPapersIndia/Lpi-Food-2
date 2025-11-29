@@ -4,18 +4,18 @@ import { Link } from 'react-router-dom';
 import { Flame, Utensils, Sparkles, Instagram, Camera } from 'lucide-react';
 
 const galleryImages = [
-  { category: "The Royal Thali", img: "https://images.unsplash.com/photo-1628296550654-1c9a14e9c1ce?w=1200&q=90" },
-  { category: "Tandoor Symphony", img: "https://images.unsplash.com/photo-1599481238640-4c128875a7f8?w=1200&q=90" },
-  { category: "Spice Alchemy", img: "https://images.unsplash.com/photo-1594041680534-e8c8cdebd659?w=1200&q=90" },
-  { category: "Gulab & Gold", img: "https://images.unsplash.com/photo-1563805042-7684c7f057f3?w=1200&q=90" },
-  { category: "Heritage Kitchen", img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=90" },
-  { category: "Diya & Devotion", img: "https://images.unsplash.com/photo-1606890658317-8c8d874c9b76?w=1200&q=90" },
-  { category: "Street to Star", img: "https://images.unsplash.com/photo-1567335991483-0d2e7546bd02?w=1200&q=90" },
-  { category: "Mandap Majesty", img: "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=1200&q=90" },
-  { category: "Saffron Dreams", img: "https://images.unsplash.com/photo-1631518736734-93e77c8e3e8c?w=1200&q=90" },
-  { category: "Royal Service", img: "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=1200&q=90" },
-  { category: "Live Chaats", img: "https://images.unsplash.com/photo-1604382354936-07adb2acfa27?w=1200&q=90" },
-  { category: "Midnight Masala", img: "https://images.unsplash.com/photo-1625225230517-2f2c2df2db2d?w=1200&q=90" }
+  { category: "The Royal Thali", img: "https://images.jdmagicbox.com/v2/comp/delhi/l8/011pxx11.xx11.211218190400.x7l8/catalogue/royal-rajdara-restaurant-noida-restaurants-uz4g3mbisi.jpg" },
+  { category: "Tandoor Symphony", img: "https://thumbs.dreamstime.com/b/culinary-symphony-vibrant-tandoori-paneer-veggie-kebabs-captured-stunning-detail-experience-flavors-textures-380559082.jpg" },
+  { category: "Spice Alchemy", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRZPLXfUw2O-OzNbzxdgzgOwUDEnRuAmvzow&s" },
+  { category: "Gulab & Gold", img: "https://i.pinimg.com/736x/fd/eb/bc/fdebbca57fe2cf03ac35e21bf7ceba07.jpg" },
+  { category: "Heritage Kitchen", img: "https://5.imimg.com/data5/SELLER/Default/2024/6/426966999/HF/VK/WM/82152693/mall-dhaba-kitchen-set-up.jpg" },
+  { category: "Diya & Devotion", img: "https://m.media-amazon.com/images/I/61rdEnG74yL._AC_UF894,1000_QL80_.jpg" },
+  { category: "Street to Star", img: "https://blog.swiggy.com/wp-content/uploads/2024/10/Image1_Pani-Puri-1024x538.jpg" },
+  { category: "Mandap Majesty", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAzmzGJooNN00Pp8Ukn5YiAF3hI03XnNk-ew&s" },
+  { category: "Saffron Dreams", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDujRVauWIF0EjsQK5AeBKQTx-CHt-CM5pgA&s" },
+  { category: "Royal Service", img: "https://i0.wp.com/azureskyfollows.com/wp-content/uploads/2020/07/Emirates-Palace-restaurants-buffet-during-iftar.jpeg?resize=1140%2C760&ssl=1" },
+  { category: "Live Chaats", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLShHPdJiam--v3u-L-CG8PA-fXAMq1juCsw&s" },
+  { category: "Midnight Masala", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRayPA2mMi13bRa-qDw_mKCyRWKpAJy3lAjEQ&s" }
 ];
 
 export default function Gallerypage() {
@@ -40,12 +40,6 @@ export default function Gallerypage() {
           <p className="text-2xl md:text-3xl text-slate-700 font-extralight italic max-w-5xl mx-auto leading-relaxed">
             Where every frame captures the poetry of flavor, fire, and five thousand years of tradition
           </p>
-
-          <div className="flex justify-center gap-16 mt-20">
-            <Camera className="w-14 h-14 text-amber-600 animate-pulse" />
-            <Flame className="w-16 h-16 text-amber-600 animate-pulse delay-300" />
-            <Sparkles className="w-14 h-14 text-amber-600 animate-pulse delay-700" />
-          </div>
         </div>
       </section>
 

@@ -46,12 +46,6 @@ export default function ContactUs() {
           <p className="text-2xl md:text-3xl text-slate-700 font-extralight italic max-w-5xl mx-auto leading-relaxed">
             Reservations • Private events • Special requests • Or simply to say namaste
           </p>
-
-          <div className="flex justify-center gap-14 mt-20">
-            <Flame className="w-14 h-14 text-amber-600 animate-pulse" />
-            <Send className="w-12 h-12 text-amber-600 animate-pulse delay-300" />
-            <Flame className="w-14 h-14 text-amber-600 animate-pulse delay-700" />
-          </div>
         </div>
       </section>
 

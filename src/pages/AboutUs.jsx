@@ -14,7 +14,7 @@ export default function AboutUs() {
         }}
       >
         {/* Light & Airy Luxury Overlay */}
-        <div className="absolute inset-0 bg-white/70" />
+        <div className="absolute inset-0 bg-white/50" />
         <div className="absolute inset-0 bg-gradient-to-t from-white via-white/30 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-r from-amber-50/40 via-transparent to-amber-50/30" />
 
@@ -29,11 +29,6 @@ export default function AboutUs() {
             A timeless celebration of India’s 5000-year-old culinary soul — reimagined for the modern connoisseur
           </p>
 
-          <div className="flex justify-center gap-12 mt-16">
-            <Flame className="w-14 h-14 text-amber-600 animate-pulse" />
-            <Sparkles className="w-12 h-12 text-amber-500 animate-pulse delay-300" />
-            <Utensils className="w-14 h-14 text-amber-600 animate-pulse delay-700" />
-          </div>
         </div>
       </section>
 
@@ -66,7 +61,7 @@ export default function AboutUs() {
           <div className="order-1 lg:order-2">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1606890658317-8c8d874c9b76?w=1200&q=90"
+                src="https://assets.architecturaldigest.in/photos/676c150b3afb923090218032/16:9/w_1616,h_909,c_limit/Untitled%20design%20-%202024-12-25T195152.755.jpg"
                 alt="Traditional Indian kitchen with heritage elements"
                 className="w-full h-[700px] object-cover"
                 loading="lazy"

@@ -17,7 +17,7 @@ const chefs = [
       "Founder – FoodFood Channel & Wonderchef"
     ],
     quote: "Indian food is not just about spice — it’s about soul.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Sanjeev_Kapoor_in_2023.jpg"
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHazUdNvBZfxuOz7_jGZ3n_PNu2iErbGyk6hpMQP5eEoaDoqVrClB8S-MpSRUiZq-nIzMaveChXOTZV9Nun6ozb95M-6-ThEVOBbTkE9bJ&s=10"
   },
   {
     name: "Vikas Khanna",
@@ -32,7 +32,7 @@ const chefs = [
       "Forbes Top 10 Most Influential Chefs"
     ],
     quote: "Every dish tells a story of our motherland.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Vikas_Khanna_in_2024.jpg"
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlHkZyn4RIGB6TNCs2aVbCImNAHFg4i07pWrq8rNlt1y0Q3gPLk441LuhqX7_t8V0-VOhplMBJDEfIkrtm3LjHPncLbX-2V-xf6K8zWvVWug&s=10"
   },
   {
     name: "Ranveer Brar",
@@ -47,7 +47,7 @@ const chefs = [
       "Host – Himalayan Heritage"
     ],
     quote: "I don’t cook food. I cook memories.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Ranveer_Brar_in_2024.jpg"
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdZoOBJdEU0lY2CK144MYvH9cvYHYim_CsTi12-EhmJSHxERqFiAEStkvuk6vfpcnglBw3zgOEk94pRAkRlS6GtOEhmExVgMcPaHVZaEhJ5A&s=10"
   },
   {
     name: "Garima Arora",
@@ -62,7 +62,7 @@ const chefs = [
       "Only Indian woman with a Michelin star"
     ],
     quote: "Indian ingredients deserve the world’s stage.",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Garima_Arora_chef.jpg/800px-Garima_Arora_chef.jpg"
+    img: "https://c.ndtvimg.com/2023-12/cb4jlhv_chef-garima-arora_650x300_14_December_23.jpg"
   }
 ];
 
@@ -88,12 +88,6 @@ export default function Chefpage() {
           <p className="text-2xl md:text-3xl text-slate-700 font-extralight italic max-w-5xl mx-auto leading-relaxed">
             Guardians of flavor • Poets of the plate • Keepers of our 5000-year legacy
           </p>
-
-          <div className="flex justify-center gap-14 mt-20">
-            <Flame className="w-14 h-14 text-amber-600 animate-pulse" />
-            <ChefHat className="w-16 h-16 text-amber-600 animate-pulse delay-300" />
-            <Sparkles className="w-14 h-14 text-amber-600 animate-pulse delay-700" />
-          </div>
         </div>
       </section>
 

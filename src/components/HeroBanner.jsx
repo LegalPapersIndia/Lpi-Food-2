@@ -15,21 +15,21 @@ const slides = [
     title: "LPI Food",
     subtitle: "An Ode to Indian Culinary Heritage",
     highlight: "Fine Dining • Reimagined",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=2200&q=85&auto=format&fit=crop",
+    image: "https://www.oberoihotels.com/-/media/oberoi-hotel/the-oberoi-new-delhi/TONDelhi_25July24/dining/360/desktop820x646/360degree3.jpg",
   },
   {
     id: 2,
     title: "Where Tradition Meets Art",
     subtitle: "Curated Flavors • Timeless Elegance",
     highlight: "Crafted with Passion Since 2025",
-    image: "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=2200&q=85&auto=format&fit=crop",
+    image: "https://images.getbento.com/accounts/e395f21ff143e91a6e9215f73c3db02d/media/images/36119bazaar_meat_chi_shane_boyer_photography8_1.png?w=1200&fit=crop&auto=compress,format&cs=origin&crop=focalpoint&fp-x=0.5&fp-y=0.5",
   },
   {
     id: 3,
     title: "A Journey Through India",
     subtitle: "Every Plate Tells a Story",
     highlight: "Seasonal • Sustainable • Sublime",
-    image: "https://images.unsplash.com/photo-1563379926899-1a66d5a4e3b6?w=2200&q=85&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
   },
 ];
 
@@ -65,9 +65,9 @@ export default function HeroBanner() {
               />
 
               {/* Light & Elegant Overlay (Bright Luxury) */}
-              <div className="absolute inset-0 bg-white/75" /> {/* Core white overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-white via-white/40 to-transparent" />
-              <div className="absolute inset-0 bg-gradient-to-r from-amber-50/30 via-transparent to-amber-50/20" />
+              <div className="absolute inset-0 bg-white/50" /> {/* Core white overlay */}
+              <div className="absolute inset-0 from-white via-white/40 to-transparent" />
+              <div className="absolute inset-0 from-amber-50/30 via-transparent to-amber-50/20" />
 
               {/* Content - Centered & Regal */}
               <div className="relative h-full flex flex-col items-center justify-center text-center px-8">
@@ -89,7 +89,7 @@ export default function HeroBanner() {
                   </p>
 
                   {/* Premium CTA Buttons */}
-                  <div className="flex flex-col sm:flex-row gap-8 justify-center items-center pt-16">
+                  <div className="flex flex-col sm:flex-row gap-8 justify-center items-center pt-16 mb-10">
                     <Link
                       to="/reservation"
                       className="group inline-flex items-center gap-4 bg-amber-600 hover:bg-amber-500 text-white px-14 py-6 text-lg font-medium tracking-widest uppercase shadow-2xl hover:shadow-amber-500/40 transform hover:-translate-y-1 transition-all duration-500"

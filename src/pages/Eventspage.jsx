@@ -25,12 +25,6 @@ export default function Eventspage() {
           <p className="text-2xl md:text-3xl text-slate-700 font-extralight italic max-w-5xl mx-auto leading-relaxed">
             Royal Indian hospitality for the milestones that matter most
           </p>
-
-          <div className="flex justify-center gap-14 mt-20">
-            <Sparkles className="w-14 h-14 text-amber-600 animate-pulse" />
-            <Heart className="w-16 h-16 text-amber-600 animate-pulse delay-300" />
-            <Flame className="w-14 h-14 text-amber-600 animate-pulse delay-700" />
-          </div>
         </div>
       </section>
 
